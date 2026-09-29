@@ -16,7 +16,7 @@ public class DBConnection {
             con = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/placement_management",
                     "root",
-                    "MyNewPassword123"
+                    "YOUR PASSWORD"
             );
 
         } catch (Exception e) {
